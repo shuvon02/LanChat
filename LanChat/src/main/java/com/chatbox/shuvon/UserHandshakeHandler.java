@@ -19,6 +19,7 @@ public class UserHandshakeHandler extends DefaultHandshakeHandler {
         String username = request.getURI().getQuery();
 
         System.err.println("user name: " + username);
+        System.err.println("user name: " + username);
 
         if (username != null && username.startsWith("username=")) {
             username = username.split("=")[1];
